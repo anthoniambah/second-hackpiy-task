@@ -1,0 +1,61 @@
+:root{
+    --gray: rgb(20, 21, 26);
+    --yellow: rgb(231, 188, 19)
+}
+ 
+.nav{
+    padding: 2%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav img{
+    width: 10%;
+}
+
+.btnnav button:hover, .btnnav a:hover{
+    color: var(--yellow);
+}
+
+.btnnav{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.btnnav button{
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.btnnav a{
+    text-decoration: none;
+    color: white;
+}
+
+.signup{
+    border: 1px solid var(--yellow);
+    color: white;
+    border-radius: 20px;
+    width: 10%;
+    cursor: pointer;
+    margin: 0 0 0 -10%;
+}
+
+.signup:hover{
+    background-color: var(--yellow);
+    color: white;
+}
+
+.light{
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 0 0 0 -10%;
+}
+
+.light:hover{
+    color: var(--yellow);
+}

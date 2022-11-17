@@ -1,0 +1,68 @@
+.section{
+    background-image: url(/src/assests/hero.svg);
+    height: 50vh;
+    background-color: black;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.firstdiv{
+    display: flex;
+    color: white;
+    width: 75%;
+    margin: auto;
+}
+
+.first-1{
+    width: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.first-1 h1{
+    font-size: 45px;
+}
+
+.first-1 p{
+    font-size: 18px;
+}
+
+.fbtn-1{
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    width: 38%;
+    background-color: var(--yellow);
+    padding: 2%;
+    border-radius: 20px;
+    border: 1px solid var(--yellow);
+}
+
+.fbtn-2{
+    color: var(--yellow);
+    cursor: pointer;
+    padding: 2%;
+    border-radius: 20px;
+    border: 1px solid var(--yellow);
+    font-size: 15px;
+    width: 38%;
+    margin: 0 0 0 3%;
+}
+
+.fbtn-2:hover{
+    color: white;
+    background-color: var(--yellow);
+}
+
+.firstbtn sup{
+    font-size: 15px;
+}
+
+.first-2{
+    width: 50%;
+    padding-top: 10%;
+}
+
+.first-2 img{
+    width: 50%;
+    position: absolute;
+}

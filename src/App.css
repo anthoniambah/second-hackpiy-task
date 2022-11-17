@@ -1,0 +1,7 @@
+:root{
+    --gray: rgb(20, 21, 26);
+}
+
+.container{
+    background-color: var(--gray);
+} 

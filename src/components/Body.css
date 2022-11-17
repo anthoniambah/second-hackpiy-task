@@ -1,0 +1,812 @@
+:root{
+    --gray: rgb(20, 21, 26);
+    --yellow: rgb(231, 188, 19);
+    --blue: rgb(3, 52, 106);
+}
+
+.announce{
+    background-color: var(gr);
+    color: white;
+}
+
+.announcep{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15%;
+}
+
+.firstann{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 6%;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.fabtn-1{
+    padding-top: 0.5%;
+    margin-top: 6%;
+    width: 2.8%;
+    color: var(--yellow);
+    height: 4.5vh;
+    border-radius: 50%;
+    border: 2px solid var(--yellow);
+    display: flex;
+    justify-content: center;
+}
+
+.firstann-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    height: 30vh;
+    border-radius: 10px;
+    background-color: var(--yellow);
+}
+
+.firstann-1 p{
+    font-size: 25px;
+    padding: 3%;
+}
+
+.firstann-1-button{
+    display: flex;
+    justify-content: right;
+    padding: 0 5% 5% 0;
+}
+
+.firstann-1-button button{
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 3%;
+    width: 50%;
+}
+
+.firstann-1-button button:hover{
+    color: var(--blue);
+    background-color: white;
+}
+
+.firstann-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    height: 30vh;
+    border-radius: 10px;
+    background-color: var(--blue);
+}
+
+.firstann-2 p{
+    font-size: 23px;
+    padding: 3%;
+}
+
+.firstann-2-button{
+    display: flex;
+    justify-content: right;
+    padding: 0 5% 5% 0;
+}
+
+.firstann-2-button button{
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 3%;
+    width: 50%;
+}
+
+.firstann-2-button button:hover{
+    color: var(--blue);
+    background-color: white;
+}
+
+.firstann-3{
+    display: flex;
+    justify-content: space-evenly;
+    width: 25%;
+    height: 30vh;
+    border-radius: 10px;
+    background-color: var(--yellow);
+}
+
+.fann-3-1-1{
+    color: black;
+}
+
+.fann-3-1-1 del{
+    color: gray;
+}
+
+.fann-3-2{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    font-size: 15px;
+}
+
+.fann-3-2 h4{
+    font-size: 20px;
+    padding: 3% 0 0 0;
+}
+
+.fann-3-2 h6{
+    font-size: 15px;
+}
+
+.firstann-3-button{
+    display: flex;
+    justify-content: right;
+    padding: 0 5% 0 0;
+    margin-top: 50%;
+}
+
+.firstann-3-button button{
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 4%;
+    width: 70%;
+}
+
+.firstann-3-button button:hover{
+    color: var(--blue);
+    background-color: white;
+}
+
+.fabtn-2{
+    padding-top: 0.5%;
+    margin-top: 6%;
+    width: 2.8%;
+    color: var(--yellow);
+    height: 4.5vh;
+    border-radius: 50%;
+    border: 2px solid var(--yellow);
+    display: flex;
+    justify-content: center;
+}
+
+.about{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5% 0 0 10%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.abouttext{
+    color: white;
+    width: 80%;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+.abouttext p{
+    font-size: 30px;
+}
+
+.abouttext span{
+    font-size: 16px;
+}
+
+.abouttext button{
+    color: var(--yellow);
+    padding: 2%;
+    border: 1px solid var(--yellow);
+    border-radius: 20px;
+    width: 35%;
+    cursor: pointer;
+}
+
+.abouttext button:hover{
+    color: white;
+    background-color: var(--yellow);
+}
+
+.started{
+    display: block;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10%;
+    color: white;
+}
+
+.started h3{
+    text-align: center;
+}
+
+.line{
+    width: 6%;
+    height: 1.5vh;
+    margin: auto;
+    background-color: var(--yellow);
+}
+
+.started p{
+    text-align: center;
+    padding-top: 2%;
+}
+
+.started-1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 8% 0 0 12%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.started-1-2{
+    padding-top: 3%;
+}
+
+.step{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+    height: 5vh;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* margin-right: 20px; */
+}
+
+.started-1-2 h4{
+    padding-top: 2%;
+    font-size: 25px;
+}
+
+.started-1-2 button{
+    color: var(--yellow);
+    border: 1px solid var(--yellow);
+    padding: 2%;
+    width: 30%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.started-1-2 button:hover{
+    color: white;
+    background-color: var(--yellow);
+}
+
+.started-1-3{
+    display: flex;
+    justify-content: space-between;
+    width: 8%;
+    margin-left: 45%;
+    height: 3vh;
+}
+
+.started-1-3 span{
+    width: 9%;
+    height: 1.5vh;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.started-1-3 span:hover{
+    background-color: var(--yellow);
+    cursor: pointer;
+}
+
+.started-1-3 span:first-child{
+    background-color: var(--yellow);
+}
+
+.cal{
+    width: 90%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 15%;
+}
+
+.cal-1{
+    width: 35%;
+    padding-top: 20%;
+    padding-left: 4%;
+}
+
+.cal-1 h2{
+    padding-bottom: 4%;
+    line-height: 35px;
+}
+
+.cal-2{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 4%;
+    background-color: rgb(43, 47, 54);
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+.calash{
+    color: rgb(108, 117, 125);
+}
+
+.cal hr{
+    color: black;
+}
+
+.calcc{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cal select{
+    border-style: none none solid none;
+    color: var(--yellow);
+    font-size: 17px;
+}
+
+.calwit{
+    text-align: right;
+    margin-left: 50%;
+}
+
+.cal-2-1 button{
+    color: rgb(108, 117, 125);
+    border: 1px solid var(--yellow);
+    border-radius: 20px;
+    padding: 4%;
+    width: 55%;
+    cursor: pointer;
+}
+
+.cal-2-1 button:hover{
+    color: white;
+    background-color: var(--yellow);
+}
+
+.cal-2-1{
+    width: 80%;
+}
+
+.cal-2-2{
+    padding-left: 8%;
+}
+
+.cal-2-2 h3{
+    font-size: 20px;
+    padding-bottom: 3%;
+}
+
+.calbox{
+    padding: 30%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.calbox i{
+    color: var(--yellow);
+}
+
+.calbox b{
+    font-size: 18.7px;
+}
+
+.cal-2-2 h5{
+    color: var(--yellow);
+    font-size: 17px;
+    padding-top: 5%;
+}
+
+.cal-2-2 p{
+    font-size: 13px;
+    padding-top: 5%;
+}
+
+.devices{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(11, 14, 17);
+    color: white;
+    padding-top: 10%;
+    padding-bottom: 6%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devices-1{
+    line-height: 25px;
+    width: 50%;
+    padding-left: 8%;
+}
+
+.devices-1 h2{
+    padding-bottom: 4%;
+    font-size: 27px;
+}
+
+.devices button{
+    color: var(--yellow);
+    border: 1px solid var(--yellow);
+    padding: 2%;
+    width: 30%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.devices button:hover{
+    color: white;
+    background-color: var(--yellow);
+}
+
+.devices-2{
+    width: 30%;
+}
+
+.features{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10%;
+    color: white;
+}
+
+.features h3{
+    text-align: center;
+    font-size: 20px;
+}
+
+.features-1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 7%;
+    padding-left: 5%;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.f-1{
+    width: 23%;
+    height: 25vh;
+    padding: 3%;
+    padding-top: 4%;
+    padding-bottom: 5%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(43, 47, 54);
+}
+
+.f-2{
+    margin-top: 4%;
+    width: 23%;
+    height: 25vh;
+    padding: 3%;
+    padding-bottom: 5%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(43, 47, 54);
+}
+
+.features-1 i{
+    color: var(--yellow);
+}
+
+.features-1 b{
+    font-size: 20px;
+}
+
+.features-1 p{
+    font-size: 15px;
+}
+
+.p-i{
+    padding-top: 15%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.p-i h3{
+    font-size: 25px;
+    text-align: center;
+}
+
+.partners{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2% 10% 0 10%;
+}
+
+.p-i b{
+    font-size: 23px;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+.pt-1{
+    border: 1px solid rgb(136, 125, 125);
+    border-radius: 3px;
+    width: 10%;
+    padding: 3%;
+}
+
+.pt-2{
+    border: 1px solid rgb(136, 125, 125);
+    border-radius: 3px;
+    width: 10%;
+    padding: 3%;
+    margin-top: 2%;
+}
+
+.investors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2% 10% 0 10%;
+}
+
+.backers{
+    padding: 2% 10% 0 10%;
+}
+
+.backers-1{
+    display: flex;    
+}
+
+.backers-1 div:nth-child(2){
+    margin-left: 2%;
+}
+
+.incu{
+    height: 15vh;
+    width: 13%;
+    border: 1px solid rgb(136, 125, 125);
+    border-radius: 3px;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.deploy{
+    padding-top: 15%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.deploy h3{
+    text-align: center;
+    font-size: 20px;
+}
+
+.deploy-1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 7%;
+    padding-left: 5%;
+    width: 90%;
+}
+
+.d-1{
+    width: 23%;
+    line-height: 23px;
+    height: 28vh;
+    padding: 3%;
+    padding-top: 4%;
+    padding-bottom: 12%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(43, 47, 54);
+}
+
+.d-1 h4{
+    font-size: 18px;
+}
+
+.d-1 p{
+    font-size: 15px;
+}
+
+.d-1b1{
+    color: var(--yellow);
+    border: 1px solid var(--yellow);
+    padding: 4%;
+    width: 60%;
+    margin-top: 7%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.d-1b2{
+    color: var(--yellow);
+    border: 1px solid var(--yellow);
+    padding: 4%;
+    margin-top: 20%;
+    width: 60%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.d-1b3{
+    color: var(--yellow);
+    border: 1px solid var(--yellow);
+    padding: 4%;
+    width: 60%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.d-1 button:hover{
+    color: white;
+    background-color: var(--yellow);
+}
+
+.network{
+    width: 99%;
+    padding-top: 13%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.start{
+    background-image: url(../assests/image2.png);
+    background-size: cover;
+    transform: skew(-5deg);
+    width: 48%;
+    height: 60vh;
+    line-height: 23px;
+}
+
+.start h1{
+    padding: 20% 0 0 30%;
+}
+
+.start p{
+    padding: 3% 0 0 30%;
+}
+
+.start button{
+    color: var(--yellow);
+    border: 1px solid var(--yellow);
+    padding: 2%;
+    margin-left: 30%;
+    border-radius: 20px;
+    width: 25%;
+}
+
+.find{
+    background-image: url(../assests/image3.png);
+    background-size: cover;
+    transform: skew(-4deg);
+    width: 48%;
+    height: 60vh;
+    line-height: 23px;
+}
+
+.find h1{
+    padding: 20% 0 0 10%;
+}
+
+.find p{
+    padding: 3% 0 0 10%;
+}
+
+.find button{
+    color: var(--yellow);
+    border: 1px solid var(--yellow);
+    padding: 2%;
+    margin-left: 10%;
+    border-radius: 20px;
+    width: 25%;
+}
+
+.network button:hover{
+    color: white;
+    background-color: var(--yellow);
+    cursor: pointer;
+}
+
+.news{
+    padding-top: 15%;
+    padding-bottom: 10%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.news h3{
+    text-align: center;
+    font-size: 25px;
+}
+
+.newsp{
+    text-align: center;
+    padding-top: 1%;
+    font-size: 17px;
+}
+
+.newsb{
+    width: 92%;
+    display: flex;
+    justify-content: right;
+}
+
+.news-left{
+    padding-top: 0.5%;
+    margin-right: 1%;
+    margin-top: 2%;
+    width: 2.8%;
+    height: 4.5vh;
+    border-radius: 50%;
+    border: 2px solid var(--yellow);
+    display: flex;
+    justify-content: center;
+}
+
+.news-left:hover{
+    background-color: var(--yellow);
+}
+
+.news-right{
+    padding-top: 0.5%;
+    margin-top: 2%;
+    width: 2.8%;
+    height: 4.5vh;
+    border-radius: 50%;
+    border: 2px solid var(--yellow);
+    display: flex;
+    justify-content: center;
+}
+
+.news-right:hover{
+    background-color: var(--yellow);
+}
+
+.news i{
+    color: var(--yellow);
+}
+
+.news i:hover{
+    color: white;
+}
+
+.news-1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1.5%;
+    padding-left: 5%;
+    width: 90%;
+}
+
+.n-1{
+    width: 23%;
+    line-height: 23px;
+    height: 25vh;
+    width: 40%;
+    padding: 3%;
+    border-radius: 10px;
+    background-color: rgb(43, 47, 54);
+}
+
+.n-1 a{
+    color: var(--yellow);
+}
+
+.n-1 p{
+    color: var(--yellow);
+}
+
+.info{
+    background-image: url(/src/assests/hero.svg);
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+    background-color: rgb(11, 14, 17);
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.info div{
+    padding-top: 5%;
+    padding-right: 3%;
+}
